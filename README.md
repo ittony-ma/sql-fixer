@@ -1,4 +1,7 @@
+[中文文档](./README_CN).md)
+
 # sql-fixer
+
 Convenient copy of SQL from console logs.
 
 # General Usage Instructions

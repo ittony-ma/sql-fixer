@@ -1,4 +1,4 @@
-[英文文档](./README.md)
+[English Document](./README.md)
 
 # sql-fixer
 
