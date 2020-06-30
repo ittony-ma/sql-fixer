@@ -2,7 +2,7 @@
 
 # sql-fixer
 
-Convenient copy of SQL from console logs.
+Convenient copy of SQL from console logs in idea.
 
 # General Usage Instructions
 When debugging with idea, it is often necessary to check whether the sql in the log printed by the console can be executed correctly, but usually we can not directly execute the sql copy, we need to add the sql parameter value to the corresponding position one by one. This plug-in solves the function of automatically filling parameters when copying sql.
