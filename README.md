@@ -13,7 +13,7 @@ If you can’t use it, you can tell me by creating a github issue or email (itto
 
 # Example
 
-1. Search for sql fixer in the "File -> Settings -> Plugins" plugin market in idea and install it.
+1. Search for `sql fixer` in the "File -> Settings -> Plugins" plugin market in idea and install it.
 
 2. Select the sql and parameter lines in your console and right-click on `Sql Fixer`.
 
