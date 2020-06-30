@@ -1,0 +1,47 @@
+<idea-plugin>
+  <id>com.tonyma.idea.plugins.id</id>
+  <name>Sql Fixer</name>
+  <version>beta1</version>
+  <vendor email="ittony.ma@gmail.com" url="http://www.tonyma.com">Tony.Ma</vendor>
+
+  <description><![CDATA[
+      Convenient copy of SQL from console logs.<br>
+      <br>
+      If you can't use it, please tell me with your example, my email is <b>ittony.ma@gmail.com</b>. <br>
+      <br>
+      Thanks!<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      2020/6/29<br>
+        1. Add icon.<br>
+        2. Support parameters including json.<br>
+        3. Add keyboard-shortcut <b>Ctrl+Shift+X</b><br>
+        4. Fix Bug.<br>
+        <br>
+      2020/6/28<br>
+        1. Release beta1 for testing.<br>
+
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="Fixed.Fixer" class="com.tony.com.FixerAction" text="Sql Fixer" description="Fixed sql from log" icon="AllIcons.CodeStyle.AddNewSectionRule">
+      <add-to-group group-id="ConsoleView.PopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift X"/>
+    </action>
+  </actions>
+
+</idea-plugin>
