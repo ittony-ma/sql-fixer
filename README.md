@@ -19,7 +19,7 @@ If you can’t use it, you can tell me by creating a github issue or email (itto
 
    ![sql fixer location](./images/sql_fixer_location.png)
 
-3. At this point, the complete SQL has been copied to your system clipboard, and the question mark in the original SQL has been replaced by the actual parameter value. You can use `Ctrl + Shift + V` to view in idea.
+3. At this point, the complete SQL has been copied to your system clipboard, and the ` ? ` in the original SQL has been replaced by the actual parameter value. You can use `Ctrl + Shift + V` to view in idea.
 
    ![clipboard](./images/clipboard.png)
 
