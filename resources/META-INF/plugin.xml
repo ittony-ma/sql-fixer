@@ -7,9 +7,10 @@
   <description><![CDATA[
       Convenient copy of SQL from console logs.<br>
       <br>
-      If you can't use it, please tell me with your example, my email is <b>ittony.ma@gmail.com</b>. <br>
+      If you can’t use it, you can tell me by creating a github issue or email (<b>ittony.ma@gmail.com</b>), no matter which way you use, please attach a sample log you can’t use, thank you!<br>
       <br>
-      Thanks!<br>
+
+      Home Page: <a href="https://github.com/ittony-ma/sql-fixer" >https://github.com/ittony-ma/sql-fixer</a><br>
     ]]></description>
 
   <change-notes><![CDATA[
