@@ -3,6 +3,7 @@
 **/.classpath
 *.iml
 *.jar
+*.zip
 
 .idea
 
