@@ -15,6 +15,8 @@ If you can’t use it, you can tell me by creating a github issue or email (itto
 
 1. Search for `sql fixer` in the "File -> Settings -> Plugins" plugin market in idea and install it.
 
+   ![install](./images/install.png)
+
 2. Select the sql and parameter lines in your console and right-click on `Sql Fixer`.
 
    ![sql fixer location](./images/sql_fixer_location.png)
