@@ -16,6 +16,8 @@
 
 1. 在 idea 中 `File -> Settings -> Plugins` 插件市场中搜索 sql fixer，并安装。
 
+   ![安装界面](./images/install.png)
+
 2. 在你的控制台中选中 sql 和 参数行，并右键点击 `Sql Fixer`.
 
    ![sql fixer 插件位置展示](./images/sql_fixer_location.png)
