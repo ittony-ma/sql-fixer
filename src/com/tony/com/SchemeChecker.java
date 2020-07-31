@@ -31,6 +31,10 @@ public class SchemeChecker {
         if (checkIntegerParam(test_str)) {
             return true;
         }
+        //检测是否Long类型的参数
+        if (checkLongParam(test_str)) {
+            return true;
+        }
         //检测是否Boolean类型的参数
         if (checkBooleanParam(test_str)) {
             return true;
@@ -83,6 +87,10 @@ public class SchemeChecker {
 
     private static boolean checkIntegerParam(String test_str) {
         return test_str.endsWith("(Integer),");
+    }
+
+    private static boolean checkLongParam(String test_str) {
+        return test_str.endsWith("(Long),");
     }
 
     private static boolean checkStringParam(String test_str) {

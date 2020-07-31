@@ -28,11 +28,16 @@ If you can’t use it, you can tell me by creating a github issue or email (itto
 
 
 # Change-Notes
+- 2020/7/31
+
+  1. Release beta1.1.
+  2. Support Long type Parameters.
+  3. Fix Bug.
+
 
 - 2020/6/29
 
   1. Add icon.
-
   2. Support parameters including json.
   3. Add keyboard-shortcut **Ctrl+Shift+X** .
   4. Fix Bug.
